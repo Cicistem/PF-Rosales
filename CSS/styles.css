@@ -9,7 +9,11 @@
 body {
   font-family: 'Montserrat', sans-serif;
   max-width: 100% !important;
-  overflow-x: hidden !important
+  overflow-x: hidden !important;
+  display:grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+
 }
 
 .wrapper {
@@ -269,6 +273,7 @@ h1 {
   height: 200px;
   padding: 2em;
   background-color: aqua;
+
 }
   
 .footer-content h2 {
