@@ -1,5 +1,25 @@
+/*Fuente*/
+/*Paleta de colores*/
+/*Mixin*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav.link,
+.nav-link.active {
+  color: #fff;
+}
+.nav.link:hover,
+.nav-link.active:hover {
+  color: #7fffd4;
+}
+
+.navbar-toggler {
+  border-color: #7fffd4;
+}
 
 /*# sourceMappingURL=styles.css.map */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
 
 * {
@@ -131,7 +151,7 @@ h1 {
 
 .about-info h2 {
     font-size: 2em !important;
-    color: #fff !important;
+    color: #1d054b !important;
 
 }
 .divider{
@@ -519,16 +539,5 @@ h1 {
 
 
   }
-
-
-
-
-
-
-
-
-
-  
-
 
 

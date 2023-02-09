@@ -2,4 +2,13 @@
 $fuentePrincipal:'Montserrat', sans-serif;
 
 /*Paleta de colores*/
-$color-primario: #fff
+$color-primario: #fff;
+$color-secundario: #7fffd4;
+
+/*Mixin*/
+
+@mixin flex-columna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

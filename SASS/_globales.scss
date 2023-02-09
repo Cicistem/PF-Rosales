@@ -4,5 +4,13 @@ body{
 
 .nav.link,
 .nav-link.active{
-    color: $color
+    color: $color-primario;
+
+    &:hover{
+        color: $color-secundario;
+    }
+}
+
+.navbar-toggler{
+    border-color:$color-secundario ;
 }
