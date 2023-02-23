@@ -14,3 +14,25 @@ body{
 .navbar-toggler{
     border-color:$color-secundario ;
 }
+
+/*Extends*/
+.portfolio { 
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    @extend .portfolio;
+}
+
+.contact-section {
+    @extend .portfolio;
+    width: 100vw;
+    background-color: #191c32;
+    color: #fff;
+  }
+
